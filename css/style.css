@@ -1,0 +1,76 @@
+/* CSS s*/
+
+body {
+	background-color: #FFF;
+	font-family: 'Lato', sans-serif;
+}
+
+.main-frame {
+	color: #484b4d;
+	-webkit-box-shadow: 6px 6px 23px -12px rgba(0,0,0,0.75);
+	-moz-box-shadow: 6px 6px 23px -12px rgba(0,0,0,0.75);
+	box-shadow: 6px 6px 23px -12px rgba(0,0,0,0.75);
+	background-color: #9dd2d8;
+    border-radius: 5px;
+    display: block;
+    margin: 50px auto;
+    max-width: 600px;
+    width: 90%;
+    transition: all 0.3s;
+}
+
+
+.main-frame h1, 
+.main-frame p {
+	text-align: center;
+}
+
+.main-frame h1 {
+	font-size: 30px;
+    font-weight: bold;
+    padding: 20px 0 0;
+    text-transform: uppercase;
+}
+
+.main-frame p {
+	font-size: 20px;
+    font-weight: 300;
+    margin: 20px 10px;
+}
+
+.container-frame {
+    margin: 10px auto;
+    min-height: 100px;
+    width: 70%;
+}
+
+.container-frame span {
+	float: left;
+    margin: 5px 10px;
+}
+
+input.form-control {
+	width: 190px;
+}
+
+.footer-frame {
+	bottom: 10px;
+    clear: left;
+    display: block;
+    height: 35px;
+    position: relative;
+    right: 10px;
+}
+
+
+.footer-frame input { float: right; }
+
+
+@media all and (max-width: 715px) {
+	.main-frame { 
+		width: 300px;
+		transition: all 0.3s;
+	}
+
+	.container-frame {height: 180px;}
+}
