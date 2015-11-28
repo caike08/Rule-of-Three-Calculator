@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="theme-color" content="#4CAF50">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="description" content="Simple Calculator - Rule of Three">
+    <meta name="author" content="Carlos Henrique Motta">  
+    <meta charset="UTF-8">  
+    <link rel="shortcut icon" href="img/favicon.png">  
+	
+	<title>Rule of Three Calculator</title>
+
+	<!-- Jquery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="css/clear.css">
+	<link rel="stylesheet" type="text/css" 
+	href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
+</head>
+<body class="container-fluid">
+	<div class="main-frame">
+			<h1>Rule of Three</h1>
+			<p>A method of finding a number in the same ratio to a given number as exists between two other given numbers</p>
+		<div class="container-frame">
+			<span>
+				<input id="x1"class="form-control" type="number" placeholder="Type your 1st value X1" required>
+			</span>
+			<span>
+				<input id="y1" class="form-control" type="number" placeholder="Type your 2nd value Y1" required>
+			</span>
+			<span>
+				<input id="x2" class="form-control" type="number" placeholder="Type your 3rd value X2" required>
+			</span>						
+			<span>
+				<input id="result" class="form-control" 	type="text" placeholder="Your result is..." disabled>
+			</span>
+		</div>
+		<div class="footer-frame">
+			<input type="button" class="btn btn-success" value="Calculate" id="btn-calc">
+		</div>
+	</div>
+
+
+	<!-- Javascript -->
+	<script type="text/javascript" src="js/index.js"></script>
+	<script type="text/javascript" 
+	src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>

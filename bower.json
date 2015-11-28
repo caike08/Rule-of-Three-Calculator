@@ -1,0 +1,25 @@
+{
+  "name": "Rule of Three",
+  "authors": [
+    "Caike Motta <caike-motta@hotmail.com>"
+  ],
+  "description": "A method of finding a number in the same ratio to a given number as exists between two other given numbers",
+  "main": "index.html",
+  "moduleType": [],
+  "keywords": [
+    "calculator",
+    "bootstrap",
+    "css",
+    "html",
+    "javascript"
+  ],
+  "license": "MIT",
+  "homepage": "people.inf.elte.hu/r3alov/",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
